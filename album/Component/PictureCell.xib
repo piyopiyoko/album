@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PictureCell" customModule="album" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="151" height="218"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b2b-wt-Vzh">
+                    <rect key="frame" x="6" y="6" width="139" height="206"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tape" translatesAutoresizingMaskIntoConstraints="NO" id="XtT-3j-TYF">
+                    <rect key="frame" x="125" y="0.0" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="66L-kY-A8H"/>
+                        <constraint firstAttribute="height" constant="20" id="oKU-FM-8QY"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tape" translatesAutoresizingMaskIntoConstraints="NO" id="lmp-PW-rcB">
+                    <rect key="frame" x="0.0" y="198" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="EaW-Ki-xjN"/>
+                        <constraint firstAttribute="height" constant="20" id="pPm-C5-OPA"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="XtT-3j-TYF" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="QSb-iA-Pgg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="b2b-wt-Vzh" secondAttribute="bottom" constant="6" id="Whf-Dq-5FH"/>
+                <constraint firstItem="b2b-wt-Vzh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="6" id="ZdT-IC-ltb"/>
+                <constraint firstItem="lmp-PW-rcB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="d8v-3J-7Py"/>
+                <constraint firstItem="lmp-PW-rcB" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="hco-km-Fxz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="b2b-wt-Vzh" secondAttribute="trailing" constant="6" id="jBy-2q-i68"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="XtT-3j-TYF" secondAttribute="trailing" constant="6" id="lD2-3j-WYY"/>
+                <constraint firstItem="b2b-wt-Vzh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="6" id="y7L-kw-dKB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="imageView" destination="b2b-wt-Vzh" id="9fc-B9-VUN"/>
+            </connections>
+            <point key="canvasLocation" x="-40.799999999999997" y="-69.265367316341838"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tape" width="173" height="116"/>
+    </resources>
+</document>

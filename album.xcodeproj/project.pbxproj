@@ -7,14 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91BCEA4D40FC5762F8706A58 /* Pods_albumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F090DCD95659E6D598760E /* Pods_albumUITests.framework */; };
+		B7B1C58811B06E260A887C83 /* Pods_albumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CA32FA6EB40549976B3F82 /* Pods_albumTests.framework */; };
 		DD1BE9902216655F004E2E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE98F2216655F004E2E77 /* AppDelegate.swift */; };
-		DD1BE9922216655F004E2E77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9912216655F004E2E77 /* ViewController.swift */; };
+		DD1BE9922216655F004E2E77 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9912216655F004E2E77 /* AlbumViewController.swift */; };
 		DD1BE9952216655F004E2E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1BE9932216655F004E2E77 /* Main.storyboard */; };
 		DD1BE9982216655F004E2E77 /* album.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9962216655F004E2E77 /* album.xcdatamodeld */; };
 		DD1BE99A22166564004E2E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1BE99922166564004E2E77 /* Assets.xcassets */; };
 		DD1BE99D22166564004E2E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1BE99B22166564004E2E77 /* LaunchScreen.storyboard */; };
 		DD1BE9A822166564004E2E77 /* albumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9A722166564004E2E77 /* albumTests.swift */; };
 		DD1BE9B322166564004E2E77 /* albumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9B222166564004E2E77 /* albumUITests.swift */; };
+		DD1BE9C322166611004E2E77 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9C222166611004E2E77 /* AlbumViewModel.swift */; };
+		DD1BE9C622166697004E2E77 /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9C522166697004E2E77 /* AlbumModel.swift */; };
+		DD1BE9C822166A1E004E2E77 /* AnyObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9C722166A1E004E2E77 /* AnyObjectModel.swift */; };
+		DD1BE9CA2216EB95004E2E77 /* AlbumSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9C92216EB95004E2E77 /* AlbumSectionModel.swift */; };
+		DD1BE9CE2216ECE1004E2E77 /* AlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD1BE9CD2216ECE1004E2E77 /* AlbumCell.xib */; };
+		DD1BE9D02216ED38004E2E77 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9CF2216ED38004E2E77 /* AlbumCell.swift */; };
+		DD1BE9D22216F292004E2E77 /* AlbumCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9D12216F292004E2E77 /* AlbumCollectionView.swift */; };
+		DD1BE9D52217D490004E2E77 /* SelectPictureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9D42217D490004E2E77 /* SelectPictureDelegate.swift */; };
+		DD1BE9D72217D5C3004E2E77 /* PictureReceiveDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9D62217D5C3004E2E77 /* PictureReceiveDelegate.swift */; };
+		DD1BE9D92217D815004E2E77 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9D82217D815004E2E77 /* CameraViewController.swift */; };
+		DD1BE9DB2217DBB4004E2E77 /* CameraRollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9DA2217DBB4004E2E77 /* CameraRollViewController.swift */; };
+		DD1BE9DD2217DEB7004E2E77 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9DC2217DEB7004E2E77 /* AddButton.swift */; };
+		DD1BE9E52217F4FF004E2E77 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9E42217F4FF004E2E77 /* String.swift */; };
+		DD1BE9F32217F705004E2E77 /* CoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9F22217F705004E2E77 /* CoreDataRepository.swift */; };
+		DD1BE9F52218038A004E2E77 /* EditPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9F42218038A004E2E77 /* EditPictureViewController.swift */; };
+		DD1BE9F8221805D0004E2E77 /* PictureEditPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9F6221805CF004E2E77 /* PictureEditPanel.swift */; };
+		DD1BE9F9221805D0004E2E77 /* PictureEditPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD1BE9F7221805CF004E2E77 /* PictureEditPanel.xib */; };
+		DD1BE9FB22180A97004E2E77 /* TrimRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9FA22180A97004E2E77 /* TrimRect.swift */; };
+		DD1BE9FD22181C79004E2E77 /* PictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD1BE9FC22181C79004E2E77 /* PictureCell.xib */; };
+		DD1BE9FF2218201B004E2E77 /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BE9FE2218201B004E2E77 /* PictureCell.swift */; };
+		DD1BEA0322182190004E2E77 /* PictureCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BEA0222182190004E2E77 /* PictureCollectionView.swift */; };
+		DD1BEA05221822E7004E2E77 /* PictureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BEA04221822E7004E2E77 /* PictureViewModel.swift */; };
+		DD1BEA12221826BD004E2E77 /* Album+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BEA0E221826BD004E2E77 /* Album+CoreDataProperties.swift */; };
+		DD1BEA13221826BD004E2E77 /* Picture+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BEA0F221826BD004E2E77 /* Picture+CoreDataClass.swift */; };
+		DD1BEA14221826BD004E2E77 /* Picture+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BEA10221826BD004E2E77 /* Picture+CoreDataProperties.swift */; };
+		DD1BEA15221826BD004E2E77 /* Album+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BEA11221826BD004E2E77 /* Album+CoreDataClass.swift */; };
+		DD1BEA17221834B9004E2E77 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BEA16221834B9004E2E77 /* PictureViewController.swift */; };
+		DD1BEA1922184B0B004E2E77 /* AlbumSelectDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BEA1822184B0B004E2E77 /* AlbumSelectDelegate.swift */; };
+		FCBB1985FD1F6549E13189D3 /* Pods_album.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF05F7CA7F83B53E120C6B4 /* Pods_album.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +66,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13CA32FA6EB40549976B3F82 /* Pods_albumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_albumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3458766FEF8EB6D1258BF8EA /* Pods-albumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-albumUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-albumUITests/Pods-albumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51FC2E2A97F28023EBA30379 /* Pods-album.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-album.debug.xcconfig"; path = "Pods/Target Support Files/Pods-album/Pods-album.debug.xcconfig"; sourceTree = "<group>"; };
+		65F090DCD95659E6D598760E /* Pods_albumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_albumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF05F7CA7F83B53E120C6B4 /* Pods_album.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_album.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		856ADD1200580555F0F0D688 /* Pods-albumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-albumUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-albumUITests/Pods-albumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B82D782D1161E2DE57F7C1D7 /* Pods-albumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-albumTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-albumTests/Pods-albumTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE64F5EA6A8897E38801C0CF /* Pods-album.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-album.release.xcconfig"; path = "Pods/Target Support Files/Pods-album/Pods-album.release.xcconfig"; sourceTree = "<group>"; };
 		DD1BE98C2216655F004E2E77 /* album.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = album.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1BE98F2216655F004E2E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD1BE9912216655F004E2E77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD1BE9912216655F004E2E77 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		DD1BE9942216655F004E2E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD1BE9972216655F004E2E77 /* album.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = album.xcdatamodel; sourceTree = "<group>"; };
 		DD1BE99922166564004E2E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +88,35 @@
 		DD1BE9AE22166564004E2E77 /* albumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = albumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1BE9B222166564004E2E77 /* albumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albumUITests.swift; sourceTree = "<group>"; };
 		DD1BE9B422166564004E2E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1BE9C222166611004E2E77 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		DD1BE9C522166697004E2E77 /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		DD1BE9C722166A1E004E2E77 /* AnyObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObjectModel.swift; sourceTree = "<group>"; };
+		DD1BE9C92216EB95004E2E77 /* AlbumSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSectionModel.swift; sourceTree = "<group>"; };
+		DD1BE9CD2216ECE1004E2E77 /* AlbumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumCell.xib; sourceTree = "<group>"; };
+		DD1BE9CF2216ED38004E2E77 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		DD1BE9D12216F292004E2E77 /* AlbumCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionView.swift; sourceTree = "<group>"; };
+		DD1BE9D42217D490004E2E77 /* SelectPictureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPictureDelegate.swift; sourceTree = "<group>"; };
+		DD1BE9D62217D5C3004E2E77 /* PictureReceiveDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureReceiveDelegate.swift; sourceTree = "<group>"; };
+		DD1BE9D82217D815004E2E77 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		DD1BE9DA2217DBB4004E2E77 /* CameraRollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRollViewController.swift; sourceTree = "<group>"; };
+		DD1BE9DC2217DEB7004E2E77 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		DD1BE9E42217F4FF004E2E77 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		DD1BE9F22217F705004E2E77 /* CoreDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataRepository.swift; path = album/Coredata/CoreDataRepository.swift; sourceTree = SOURCE_ROOT; };
+		DD1BE9F42218038A004E2E77 /* EditPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPictureViewController.swift; sourceTree = "<group>"; };
+		DD1BE9F6221805CF004E2E77 /* PictureEditPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureEditPanel.swift; sourceTree = "<group>"; };
+		DD1BE9F7221805CF004E2E77 /* PictureEditPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureEditPanel.xib; sourceTree = "<group>"; };
+		DD1BE9FA22180A97004E2E77 /* TrimRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimRect.swift; sourceTree = "<group>"; };
+		DD1BE9FC22181C79004E2E77 /* PictureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureCell.xib; sourceTree = "<group>"; };
+		DD1BE9FE2218201B004E2E77 /* PictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
+		DD1BEA0222182190004E2E77 /* PictureCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionView.swift; sourceTree = "<group>"; };
+		DD1BEA04221822E7004E2E77 /* PictureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewModel.swift; sourceTree = "<group>"; };
+		DD1BEA0E221826BD004E2E77 /* Album+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Album+CoreDataProperties.swift"; path = "album/Coredata/Album+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		DD1BEA0F221826BD004E2E77 /* Picture+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Picture+CoreDataClass.swift"; path = "album/Coredata/Picture+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		DD1BEA10221826BD004E2E77 /* Picture+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Picture+CoreDataProperties.swift"; path = "album/Coredata/Picture+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		DD1BEA11221826BD004E2E77 /* Album+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Album+CoreDataClass.swift"; path = "album/Coredata/Album+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		DD1BEA16221834B9004E2E77 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		DD1BEA1822184B0B004E2E77 /* AlbumSelectDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSelectDelegate.swift; sourceTree = "<group>"; };
+		DD3E0B7493FD413E96E2AC11 /* Pods-albumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-albumTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-albumTests/Pods-albumTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBB1985FD1F6549E13189D3 /* Pods_album.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B1C58811B06E260A887C83 /* Pods_albumTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +140,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91BCEA4D40FC5762F8706A58 /* Pods_albumUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		294885F53393A1AB7895DBAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51FC2E2A97F28023EBA30379 /* Pods-album.debug.xcconfig */,
+				CE64F5EA6A8897E38801C0CF /* Pods-album.release.xcconfig */,
+				DD3E0B7493FD413E96E2AC11 /* Pods-albumTests.debug.xcconfig */,
+				B82D782D1161E2DE57F7C1D7 /* Pods-albumTests.release.xcconfig */,
+				856ADD1200580555F0F0D688 /* Pods-albumUITests.debug.xcconfig */,
+				3458766FEF8EB6D1258BF8EA /* Pods-albumUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9BC895F767121BFA4C0C8DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BF05F7CA7F83B53E120C6B4 /* Pods_album.framework */,
+				13CA32FA6EB40549976B3F82 /* Pods_albumTests.framework */,
+				65F090DCD95659E6D598760E /* Pods_albumUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD1BE9832216655F004E2E77 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +177,8 @@
 				DD1BE9A622166564004E2E77 /* albumTests */,
 				DD1BE9B122166564004E2E77 /* albumUITests */,
 				DD1BE98D2216655F004E2E77 /* Products */,
+				294885F53393A1AB7895DBAA /* Pods */,
+				A9BC895F767121BFA4C0C8DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +195,14 @@
 		DD1BE98E2216655F004E2E77 /* album */ = {
 			isa = PBXGroup;
 			children = (
+				DD1BE9E62217F6AA004E2E77 /* CoreData */,
+				DD1BE9E32217F4E2004E2E77 /* Extention */,
+				DD1BE9C422166682004E2E77 /* Model */,
+				DD1BE9C1221665F8004E2E77 /* ViewModel */,
+				DD1BE9C0221665EA004E2E77 /* ViewController */,
+				DD1BE9CC2216EC9F004E2E77 /* Component */,
+				DD1BE9D32217D465004E2E77 /* Delegate */,
 				DD1BE98F2216655F004E2E77 /* AppDelegate.swift */,
-				DD1BE9912216655F004E2E77 /* ViewController.swift */,
 				DD1BE9932216655F004E2E77 /* Main.storyboard */,
 				DD1BE99922166564004E2E77 /* Assets.xcassets */,
 				DD1BE99B22166564004E2E77 /* LaunchScreen.storyboard */,
@@ -128,6 +230,85 @@
 			path = albumUITests;
 			sourceTree = "<group>";
 		};
+		DD1BE9C0221665EA004E2E77 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD1BE9912216655F004E2E77 /* AlbumViewController.swift */,
+				DD1BE9D82217D815004E2E77 /* CameraViewController.swift */,
+				DD1BE9DA2217DBB4004E2E77 /* CameraRollViewController.swift */,
+				DD1BE9F42218038A004E2E77 /* EditPictureViewController.swift */,
+				DD1BEA16221834B9004E2E77 /* PictureViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DD1BE9C1221665F8004E2E77 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD1BE9C222166611004E2E77 /* AlbumViewModel.swift */,
+				DD1BEA04221822E7004E2E77 /* PictureViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD1BE9C422166682004E2E77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD1BE9C522166697004E2E77 /* AlbumModel.swift */,
+				DD1BE9C722166A1E004E2E77 /* AnyObjectModel.swift */,
+				DD1BE9C92216EB95004E2E77 /* AlbumSectionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD1BE9CC2216EC9F004E2E77 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				DD1BE9F6221805CF004E2E77 /* PictureEditPanel.swift */,
+				DD1BE9F7221805CF004E2E77 /* PictureEditPanel.xib */,
+				DD1BE9CD2216ECE1004E2E77 /* AlbumCell.xib */,
+				DD1BE9CF2216ED38004E2E77 /* AlbumCell.swift */,
+				DD1BE9D12216F292004E2E77 /* AlbumCollectionView.swift */,
+				DD1BE9DC2217DEB7004E2E77 /* AddButton.swift */,
+				DD1BE9FA22180A97004E2E77 /* TrimRect.swift */,
+				DD1BE9FC22181C79004E2E77 /* PictureCell.xib */,
+				DD1BE9FE2218201B004E2E77 /* PictureCell.swift */,
+				DD1BEA0222182190004E2E77 /* PictureCollectionView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		DD1BE9D32217D465004E2E77 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				DD1BE9D42217D490004E2E77 /* SelectPictureDelegate.swift */,
+				DD1BE9D62217D5C3004E2E77 /* PictureReceiveDelegate.swift */,
+				DD1BEA1822184B0B004E2E77 /* AlbumSelectDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		DD1BE9E32217F4E2004E2E77 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				DD1BE9E42217F4FF004E2E77 /* String.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		DD1BE9E62217F6AA004E2E77 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DD1BEA11221826BD004E2E77 /* Album+CoreDataClass.swift */,
+				DD1BEA0E221826BD004E2E77 /* Album+CoreDataProperties.swift */,
+				DD1BEA0F221826BD004E2E77 /* Picture+CoreDataClass.swift */,
+				DD1BEA10221826BD004E2E77 /* Picture+CoreDataProperties.swift */,
+				DD1BE9F22217F705004E2E77 /* CoreDataRepository.swift */,
+			);
+			name = CoreData;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +316,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD1BE9B722166564004E2E77 /* Build configuration list for PBXNativeTarget "album" */;
 			buildPhases = (
+				ADCFE564F40DB25B8A8B3EEE /* [CP] Check Pods Manifest.lock */,
 				DD1BE9882216655F004E2E77 /* Sources */,
 				DD1BE9892216655F004E2E77 /* Frameworks */,
 				DD1BE98A2216655F004E2E77 /* Resources */,
+				1A033029C81BD44FFACC67B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +335,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD1BE9BA22166564004E2E77 /* Build configuration list for PBXNativeTarget "albumTests" */;
 			buildPhases = (
+				88001990CF60F479D03DD5CC /* [CP] Check Pods Manifest.lock */,
 				DD1BE99F22166564004E2E77 /* Sources */,
 				DD1BE9A022166564004E2E77 /* Frameworks */,
 				DD1BE9A122166564004E2E77 /* Resources */,
@@ -170,6 +354,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD1BE9BD22166564004E2E77 /* Build configuration list for PBXNativeTarget "albumUITests" */;
 			buildPhases = (
+				50A48AE5A0980452E0B2241E /* [CP] Check Pods Manifest.lock */,
 				DD1BE9AA22166564004E2E77 /* Sources */,
 				DD1BE9AB22166564004E2E77 /* Frameworks */,
 				DD1BE9AC22166564004E2E77 /* Resources */,
@@ -233,8 +418,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD1BE99D22166564004E2E77 /* LaunchScreen.storyboard in Resources */,
+				DD1BE9F9221805D0004E2E77 /* PictureEditPanel.xib in Resources */,
+				DD1BE9FD22181C79004E2E77 /* PictureCell.xib in Resources */,
 				DD1BE99A22166564004E2E77 /* Assets.xcassets in Resources */,
 				DD1BE9952216655F004E2E77 /* Main.storyboard in Resources */,
+				DD1BE9CE2216ECE1004E2E77 /* AlbumCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +442,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A033029C81BD44FFACC67B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-album/Pods-album-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-album/Pods-album-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50A48AE5A0980452E0B2241E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-albumUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88001990CF60F479D03DD5CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-albumTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADCFE564F40DB25B8A8B3EEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-album-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD1BE9882216655F004E2E77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD1BE9CA2216EB95004E2E77 /* AlbumSectionModel.swift in Sources */,
+				DD1BE9F8221805D0004E2E77 /* PictureEditPanel.swift in Sources */,
+				DD1BE9DD2217DEB7004E2E77 /* AddButton.swift in Sources */,
+				DD1BE9C322166611004E2E77 /* AlbumViewModel.swift in Sources */,
+				DD1BE9C822166A1E004E2E77 /* AnyObjectModel.swift in Sources */,
+				DD1BE9F52218038A004E2E77 /* EditPictureViewController.swift in Sources */,
+				DD1BE9FF2218201B004E2E77 /* PictureCell.swift in Sources */,
+				DD1BEA17221834B9004E2E77 /* PictureViewController.swift in Sources */,
+				DD1BEA1922184B0B004E2E77 /* AlbumSelectDelegate.swift in Sources */,
+				DD1BEA15221826BD004E2E77 /* Album+CoreDataClass.swift in Sources */,
+				DD1BE9D22216F292004E2E77 /* AlbumCollectionView.swift in Sources */,
+				DD1BE9D02216ED38004E2E77 /* AlbumCell.swift in Sources */,
+				DD1BE9D92217D815004E2E77 /* CameraViewController.swift in Sources */,
+				DD1BEA14221826BD004E2E77 /* Picture+CoreDataProperties.swift in Sources */,
+				DD1BE9C622166697004E2E77 /* AlbumModel.swift in Sources */,
+				DD1BE9FB22180A97004E2E77 /* TrimRect.swift in Sources */,
+				DD1BE9D72217D5C3004E2E77 /* PictureReceiveDelegate.swift in Sources */,
+				DD1BE9F32217F705004E2E77 /* CoreDataRepository.swift in Sources */,
+				DD1BEA13221826BD004E2E77 /* Picture+CoreDataClass.swift in Sources */,
+				DD1BEA12221826BD004E2E77 /* Album+CoreDataProperties.swift in Sources */,
+				DD1BEA0322182190004E2E77 /* PictureCollectionView.swift in Sources */,
+				DD1BEA05221822E7004E2E77 /* PictureViewModel.swift in Sources */,
+				DD1BE9DB2217DBB4004E2E77 /* CameraRollViewController.swift in Sources */,
 				DD1BE9982216655F004E2E77 /* album.xcdatamodeld in Sources */,
-				DD1BE9922216655F004E2E77 /* ViewController.swift in Sources */,
+				DD1BE9D52217D490004E2E77 /* SelectPictureDelegate.swift in Sources */,
+				DD1BE9E52217F4FF004E2E77 /* String.swift in Sources */,
+				DD1BE9922216655F004E2E77 /* AlbumViewController.swift in Sources */,
 				DD1BE9902216655F004E2E77 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +746,7 @@
 		};
 		DD1BE9B822166564004E2E77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51FC2E2A97F28023EBA30379 /* Pods-album.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +765,7 @@
 		};
 		DD1BE9B922166564004E2E77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE64F5EA6A8897E38801C0CF /* Pods-album.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +784,7 @@
 		};
 		DD1BE9BB22166564004E2E77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3E0B7493FD413E96E2AC11 /* Pods-albumTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +806,7 @@
 		};
 		DD1BE9BC22166564004E2E77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82D782D1161E2DE57F7C1D7 /* Pods-albumTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +828,7 @@
 		};
 		DD1BE9BE22166564004E2E77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856ADD1200580555F0F0D688 /* Pods-albumUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +849,7 @@
 		};
 		DD1BE9BF22166564004E2E77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3458766FEF8EB6D1258BF8EA /* Pods-albumUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
